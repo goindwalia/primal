@@ -12,6 +12,9 @@
 
 (defvar _packages
   '(better-defaults
+    nyan-mode
+    helm
+    helm-projectile
     cyberpunk-theme
     inkpot-theme
     elpy

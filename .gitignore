@@ -4,3 +4,6 @@
 /request/
 /places
 /auto-save-list/
+*.eld
+.DS_Store
+*#

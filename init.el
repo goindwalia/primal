@@ -44,7 +44,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (go-eldoc company-go go-autocomplete auto-complete exec-path-from-shell project-explorer web-mode rainbow-delimiters py-autopep8 pbcopy markdown-mode magit go-mode js2-mode flycheck elpy cyberpunk-theme better-defaults))))
+    (nyan-mode helm-projectile go-eldoc company-go go-autocomplete auto-complete exec-path-from-shell project-explorer web-mode rainbow-delimiters py-autopep8 pbcopy markdown-mode magit go-mode js2-mode flycheck elpy cyberpunk-theme better-defaults))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -71,3 +71,12 @@
 
 (require 'auto-complete-config)
 (require 'go-autocomplete)
+
+(require 'helm-config)
+(require 'helm-projectile)
+(require 'nyan-mode)
+(nyan-mode 1)
+(helm-autoresize-mode 1)
+(helm-mode 1)
+(helm-projectile-on)
+(projectile-global-mode)
