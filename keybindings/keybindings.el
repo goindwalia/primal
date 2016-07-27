@@ -14,6 +14,11 @@
 (global-set-key (kbd "C-x C-a") 'projectile-mode)
 (global-set-key (kbd "C-x b") 'helm-buffers-list)
 (global-set-key (kbd "C-x f") 'helm-find)
+
+(global-set-key (kbd "C-x >") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-x <") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-x /") 'mc/mark-all-like-this)
+
 (provide 'keybindings)
 
 ;; keybindings end here
